@@ -9,9 +9,9 @@
   <url>http://maven.apache.org</url>
   
   <properties>
-  	<tomcat_url>http://harihara:8001/manager/text</tomcat_url>
+  	<tomcat_url>http://localhost:9090/manager/text</tomcat_url>
   </properties>
-  
+  <!--
   <distributionManagement>
    <repository>
     <id>jfrog</id>
@@ -24,7 +24,7 @@
     <url>http://harihara:8081/artifactory/shoppingweb_local</url>
    </snapshotRepository>
  </distributionManagement>
- 
+ -->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -63,6 +63,8 @@
 				<configuration>
 					<url>${tomcat_url}</url>
 					<server>tomcat</server>
+					<username>rajesh</username>
+					<password>rajesh</password>
 				</configuration>
 			</plugin>
       </plugins>
