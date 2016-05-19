@@ -11,7 +11,7 @@
   <properties>
   	<tomcat_url>http://localhost:9090/manager/text</tomcat_url>
   </properties>
-  
+  <!--
   <distributionManagement>
    <repository>
     <id>jfrog</id>
@@ -24,7 +24,7 @@
     <url>http://harihara:8081/artifactory/shoppingweb_local</url>
    </snapshotRepository>
  </distributionManagement>
- 
+ -->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
