@@ -55,8 +55,8 @@
 				<configuration>
 					<url>${tomcat_url}</url>
 					<server>tomcat</server>
-					<!--<username>rajesh</username>
-					<password>secret</password>-->
+					<username>rajesh</username>
+					<password>secret</password>
 				</configuration>
 			</plugin>
 			<plugin>
