@@ -54,7 +54,9 @@
 				<version>2.2</version>
 				<configuration>
 					<url>${tomcat_url}</url>
-					<server>tomcat</server>					
+					<server>tomcat</server>
+					<username>admin</username>
+					<password>somethingnsecret</password>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -63,8 +65,6 @@
 				<configuration>
 					<url>${tomcat_url}</url>
 					<server>tomcat</server>
-					<username>admin</username>
-					<password>somethingnsecret</password>
 				</configuration>
 			</plugin>
       </plugins>
