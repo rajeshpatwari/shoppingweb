@@ -63,8 +63,8 @@
 				<configuration>
 					<url>${tomcat_url}</url>
 					<server>tomcat</server>
-					<username>rajesh</username>
-					<password>rajesh</password>
+					<username>admin</username>
+					<password>somethingnsecret</password>
 				</configuration>
 			</plugin>
       </plugins>
