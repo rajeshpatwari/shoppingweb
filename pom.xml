@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   
   <properties>
-  	<tomcat_url>http://localhost:9090/manager/text</tomcat_url>
+  	<tomcat_url>http://52.40.8.19:8080/manager/text</tomcat_url>
   </properties>
   <!--
   <distributionManagement>
