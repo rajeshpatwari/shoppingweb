@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   
   <properties>
-  	<tomcat_url>http://52.40.8.19:8080/manager/text</tomcat_url>
+  	<tomcat_url>http://rajeshpatwari2.mylabserver.com:8085/manager/text</tomcat_url>
   </properties>
   <!--
   <distributionManagement>
@@ -55,8 +55,8 @@
 				<configuration>
 					<url>${tomcat_url}</url>
 					<server>tomcat</server>
-					<username>rajesh</username>
-					<password>secret</password>
+					<username>admin</username>
+					<password>admin</password>
 				</configuration>
 			</plugin>
 			<plugin>
